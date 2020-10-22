@@ -31,6 +31,16 @@
     <module>TestProject1</module>
     <module>TestProject2</module>
   </modules>-->
+  <distributionManagement>
+	<snapshotRepository>
+		<id>maven-snapshot</id>
+		<url>http://localhost:8081/repository/maven-snapshots/</url>
+	</snapshotRepository>
+	 <!--<repository>
+    <id>releases</id>
+    <url>http://localhost:8081/repository/maven-releases/</url>
+  </repository>-->
+  </distributionManagement>
   <build>
   <plugins>
 		<plugin>

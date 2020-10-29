@@ -33,7 +33,7 @@
   </modules>-->
   <distributionManagement>
 	<snapshotRepository>
-		<id>maven-snapshot</id>
+		<id>maven-snapshots</id>
 		<url>http://localhost:8081/repository/maven-snapshots/</url>
 	</snapshotRepository>
 	 <!--<repository>

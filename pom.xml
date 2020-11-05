@@ -58,4 +58,15 @@
 		</plugin>
       </plugins>
   </build>
+     <scm> 
+
+        <connection>scm:git:https://github.com/Zouhair96/ParentProject.git</connection> 
+
+        <developerConnection>scm:git:https://github.com/Zouhair96/ParentProject.git</developerConnection> 
+
+        <url>scm:git:https://github.com/Zouhair96/ParentProject.git</url> 
+
+      <tag>HEAD</tag>
+
+  </scm> 
 </project>

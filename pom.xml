@@ -36,13 +36,8 @@
 		<id>maven-snapshots</id>
 		<url>http://localhost:8081/repository/maven-snapshots/</url>
 	</snapshotRepository>
-<<<<<<< HEAD
 	 <repository>
     <id>maven-releases</id>
-=======
-	<!-- <repository>
-    <id>releases</id>
->>>>>>> 9e9ca511b9107aa450b715639b395f393ee6abde
     <url>http://localhost:8081/repository/maven-releases/</url>
   </repository>
   </distributionManagement>
@@ -61,11 +56,6 @@
 				</execution>
 			 </executions>
 		</plugin>
-	     <!--<plugin>
-		<groupId>org.apache.maven.plugins</groupId>
-		<artifactId>maven-release-plugin</artifactId>
-		<version>3.0.0-M1</version>
-	      </plugin>-->
       </plugins>
   </build>
 </project>
